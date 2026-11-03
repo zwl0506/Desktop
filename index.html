@@ -1,0 +1,175 @@
+ 20:54
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天府成都</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f8f5f0;
+            color: #333;
+            line-height: 1.7;
+        }
+        header {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://picsum.photos/id/1039/1920/700');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+        header h1 {
+            font-size: 48px;
+            margin-bottom:12px;
+        }
+        header p {
+            font-size:20px;
+            opacity:0.9;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .section-title {
+            text-align:center;
+            font-size:30px;
+            color:#b82626;
+            margin-bottom:35px;
+            position:relative;
+        }
+        .section-title::after {
+            content:"";
+            display:block;
+            width:80px;
+            height:3px;
+            background:#b82626;
+            margin:10px auto;
+        }
+        .intro {
+            background:#fff;
+            padding:30px;
+            border-radius:12px;
+            box-shadow:0 3px 12px #00000015;
+            margin-bottom:50px;
+        }
+        .grid {
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+            gap:24px;
+            margin-bottom:50px;
+        }
+        .card {
+            background:#fff;
+            border-radius:12px;
+            overflow:hidden;
+            box-shadow:0 3px 12px #00000015;
+            transition:0.3s;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+        }
+        .card img {
+            width:100%;
+            height:180px;
+            object-fit:cover;
+        }
+        .card-body {
+            padding:20px;
+        }
+        .card-body h3 {
+            color:#b82626;
+            margin-bottom:8px;
+        }
+        footer {
+            background:#222;
+            color:#ddd;
+            text-align:center;
+            padding:30px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>天府之国 · 成都</h1>
+        <p>一座来了就不想离开的城市</p>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <h2 class="section-title">城市简介</h2>
+            <p>成都，四川省省会，别称蓉城、锦城，地处四川盆地西部。这里历史悠久，古蜀文明在此发源，拥有两千多年建城史。
+            成都生活节奏舒缓，茶文化浓厚，遍地茶馆；同时也是热门旅游城市，国宝大熊猫的故乡。
+            麻辣鲜香的川菜、热闹的夜市，还有悠闲的市井气息，构成了成都独有的浪漫。</p>
+        </div>
+
+        <h2 class="section-title">热门景点</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://picsum.photos/id/237/600/300" alt="大熊猫繁育研究基地">
+                <div class="card-body">
+                    <h3>成都大熊猫繁育研究基地</h3>
+                    <p>全世界看大熊猫首选之地，圆滚滚的国宝治愈人心，早上更容易看到熊猫活动。</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/1036/600/300" alt="宽窄巷子">
+                <div class="card-body">
+                    <h3>宽窄巷子</h3>
+                    <p>由宽巷子、窄巷子、井巷子组成，老成都院落，喝茶、采耳、感受老成都烟火。</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/1037/600/300" alt="锦里">
+                <div class="card-body">
+                    <h3>锦里古街</h3>
+                    <p>紧邻武侯祠，夜晚灯火很美，小吃云集，古色古香，适合拍照闲逛。</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/1038/600/300" alt="都江堰">
+                <div class="card-body">
+                    <h3>都江堰</h3>
+                    <p>世界水利奇迹，两千多年持续造福成都平原，山清水秀，历史底蕴深厚。</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">成都美食</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://picsum.photos/id/1040/600/300" alt="火锅">
+                <div class="card-body">
+                    <h3>老成都火锅</h3>
+                    <p>牛油锅底麻辣醇厚，毛肚、鸭肠、黄喉是经典配菜，聚餐首选。</p>
+                </div>
+            </div>
+ class="card">
+                 <img src="https://picsum.photos/id/1041/600/300" alt="担担面">
+                 <div class="card-body">
+                     <h3>担担面</h3>
+                     <p>细面配上花生碎、芽菜、红油，鲜香麻辣，是地道成都小吃。</p>
+                 </div>
+             </div>
+             <div class="card">
+                 <img src="https://picsum.photos/id/1042/600/300" alt="冰粉">
+                 <div class="card-body">
+                     <h3>冰粉</h3>
+                     <p>红糖冰粉配上山楂碎、葡萄干，吃完火锅来一碗，清爽解辣。</p>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <footer>
+         <p>天府成都 | 网页示例</p>
+     </footer>
+ </body>
+ </html>
+
